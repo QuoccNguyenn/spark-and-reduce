@@ -1,5 +1,5 @@
 # spark-and-reduce
-<pre><b>Giới thiệu về Spark và mapreduce (BIG-DATA)</b><pre>
+<pre><b>Giới thiệu về Spark và mapreduce (BIG-DATA)</b></pre>
 
 Thuật ngữ dữ liệu lớn đã tạo ra rất nhiều sự cường điệu đã có trong thế giới kinh doanh. Hadoop và Spark đều là các khung dữ liệu lớn; họ cung cấp một số công cụ phổ biến nhất được sử dụng để thực hiện các tác vụ lớn liên quan đến dữ liệu lớn. Bài viết này  sẽ đề cập đến sự khác biệt giữa Spark và Hadoop MapReduce.<br>
 
@@ -15,7 +15,7 @@ Bộ dữ liệu phân tán linh hoạt (RDD) của nó cho phép Spark lưu tr�
 Hadoop:<br>Apache Hadoop cung cấp xử lý hàng loạt. Hadoop phát triển rất nhiều trong việc tạo ra các thuật toán mới và ngăn xếp thành phần để cải thiện quyền truy cập vào xử lý hàng loạt quy mô lớn.<br>
 MapReduce là công cụ xử lý hàng loạt riêng của Hadoop. Một số thành phần hoặc lớp (như YARN, HDFS, v.v.) trong các phiên bản hiện đại của Hadoop cho phép dễ dàng xử lý dữ liệu hàng loạt. Vì MapReduce là về lưu trữ vĩnh viễn, nó lưu trữ dữ liệu trên đĩa, có nghĩa là nó có thể xử lý các bộ dữ liệu lớn. MapReduce có khả năng mở rộng và đã chứng minh hiệu quả của nó để đối phó với hàng chục ngàn nút. Tuy nhiên, quá trình xử lý dữ liệu của Hadoop rất chậm do MapReduce hoạt động theo các bước tuần tự khác nhau.<br>
 
-<pre><b>PHÂN TÍCH THỜI GIAN THỰC</b>/pre>
+<pre><b>PHÂN TÍCH THỜI GIAN THỰC</b></pre>
 <b><Spark</b> có thể xử lý dữ liệu thời gian thực, tức là dữ liệu đến từ các luồng sự kiện thời gian thực với tốc độ hàng triệu sự kiện mỗi giây, chẳng hạn như dữ liệu Twitter và Facebook. Sức mạnh của Spark nằm ở khả năng xử lý luồng trực tiếp thực sự hiệu quả.<br>
 <b>MapReduce</b> không tốt khi xử lý dữ liệu thời gian thực, vì nó được thiết kế để thực hiện xử lý hàng loạt trên lượng dữ liệu khổng lồ.<br>
 
